@@ -1,5 +1,4 @@
-function get-FreeSpace {
-    
+function get-FreeSpace {    
     $outFile = "D:\freespace.txt"
     $drives = [system.io.driveinfo]::GetDrives()
     $output = @()
@@ -12,7 +11,6 @@ function get-FreeSpace {
             $output += $drive.Name + " " + $freespace + "%"
         }   
     }
-    
     $output | set-content $OutFile
 }
 <#
