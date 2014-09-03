@@ -1,6 +1,6 @@
 	param(
 			$root = "D:\",
-			$FileType = @("mp3", "aac", "wma", "wmv", "avi", "mkv", "3gp","act", "aiff", "amr", "au", "awb", "dct", "dss" , "dvf", "flac", "gsm", "iklax", "ivs", "m4a", "m4p" ,"mmf", "mpc", "msv", "ogg", "oga", "opus", "ra", "rm", "raw", "tta", "vox", "wav" ,"wv", "webm", "flv", "ogv", "ogg", "drc", "mng", "mov", "qt", "rm", "rmvb", "asf", "mp4", "m4p", "m4v", "mpg", "mp2", "mpeg", "mpg", "mpe", "mpv", "mpg", "mpeg", "m2v" , "m4v", "svi", "3gp", "eg2" , "mxf", "roq", "nsv"),
+			$FileType = @("mp3", "aac", "wma", "wmv", "avi", "mkv", "3gp","act", "aiff", "amr", "au", "awb", "dct", "dss" , "dvf", "flac", "gsm", "iklax", "ivs", "m4a", "m4p" ,"mmf", "mpc", "msv", "ogg", "oga", "opus", "ra", "rm", "raw", "tta", "vox", "wav" ,"wv", "webm", "flv", "ogv", "ogg", "drc", "mng", "mov", "qt", "rm", "rmvb", "asf", "mp4", "m4p", "m4v", "mpg", "mp2", "mpeg", "mpe", "mpv", "m2v" , "m4v", "svi", "3gp", "eg2" , "mxf", "roq", "nsv"),
 			$Outfile = "D:\mediafiles.txt"
 	     )
 	$output = @()
