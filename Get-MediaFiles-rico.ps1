@@ -1,6 +1,6 @@
 	param(
 			$root = "D:\",
-			$FileType = @("mp3", "aac", "wma", "wmv", "avi", "mkv", "3gp","act", "aiff", "amr", "au", "awb", "dct", "dss" , "dvf", "flac", "gsm", "iklax", "ivs", "m4a", "m4p" ,"mmf", "mpc", "msv", "ogg", "oga", "opus", "ra", "rm", "raw", "tta", "vox", "wav" ,"wv", "webm", "flv", "ogv", "ogg", "drc", "mng", "mov", "qt", "rm", "rmvb", "asf", "mp4", "m4p", "m4v", "mpg", "mp2", "mpeg", "mpe", "mpv", "m2v" , "m4v", "svi", "3gp", "eg2" , "mxf", "roq", "nsv"),
+			$FileType = @("eg2", "3gp", "aac", "act", "aiff", "amr", "asf", "au", "avi", "awb", "dct", "drc", "dss", "dvf", "flac", "flv", "gsm", "iklax", "ivs", "m2v", "m4a", "m4p", "m4v", "mkv", "mmf", "mng", "mov", "mp2", "mp3", "mp4", "mpc", "mpg", "mpeg", "mpe", "mpv", "msv", "mxf",  "nsv", "oga", "ogg", "ogv", "opus", "qt", "ra", "raw", "rm", "rmvb", "roq", "svi", "tta", "vox", "wav", "webm", "wv", "wma", "wmv"),
 			$Outfile = "D:\mediafiles.txt"
 	     )
 	$output = @()
